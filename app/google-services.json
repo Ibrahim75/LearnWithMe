@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "64591739375",
+    "firebase_url": "https://learnwithme-1fcfd.firebaseio.com",
+    "project_id": "learnwithme-1fcfd",
+    "storage_bucket": "learnwithme-1fcfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64591739375:android:e796899bb7a37ced",
+        "android_client_info": {
+          "package_name": "com.example.ibmtec.learnwithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64591739375-un1abqihf4337cfb95chmpo0ot08scbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ibmtec.learnwithme",
+            "certificate_hash": "10AB28FDE8590028C8CCBD2166D0B549E310FFE9"
+          }
+        },
+        {
+          "client_id": "64591739375-ao85rlmd1g4q3s5r2f4hrfbij2bok97b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA42ImQyAJeIhA1pO0fMYNHm-fHYGuAFgs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64591739375-ao85rlmd1g4q3s5r2f4hrfbij2bok97b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
