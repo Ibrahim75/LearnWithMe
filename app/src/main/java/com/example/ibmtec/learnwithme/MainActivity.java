@@ -75,7 +75,7 @@ private FirebaseAuth auth;
                 public void onComplete(@NonNull Task<Void> task)
                 {
                     Log.d("AUTH","L'utilisateur s'est bien déconnecté");
-                    //finish();
+                    finish();
                 }
             });
         }
