@@ -13,21 +13,53 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="teechme Sinaaaaaaaaaan test"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:color="#0AAE9F"/>
+        android:color="#0AAE9F"
+        android:text="TeechMe"
+        android:fontFamily="cursive"
+        android:textSize="56sp"
+        android:textStyle="normal|bold|italic"
+        android:textAllCaps="false"
+        android:textColor="#0AAE9F" />
 
     <Button
         android:color="#0AAE9F"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To log out Sinan"
+        android:text="Se deconnecter"
         android:id="@+id/log_out_button"
-        android:layout_marginTop="65dp"
-        android:layout_below="@+id/textView"
+        android:textColor="#fff"
+        android:background="#0AAE9F"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:color="#0AAE9F"
+        android:text="Je veux un cours"
+        android:id="@+id/cours_button"
+        android:textColor="#fff"
+        android:background="#0AAE9F"
+        android:layout_height="50dp"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp" />
+
+    <Button
+        android:color="#0AAE9F"
+        android:text="Je donne un cours"
+        android:id="@+id/lesson_button"
+        android:textColor="#fff"
+        android:background="#0AAE9F"
+        android:layout_height="50dp"
+        android:layout_marginTop="31dp"
+        android:layout_width="300dp"
+        android:layout_below="@+id/cours_button"
+        android:layout_alignLeft="@+id/cours_button"
+        android:layout_alignStart="@+id/cours_button" />
 
 
 </RelativeLayout>
