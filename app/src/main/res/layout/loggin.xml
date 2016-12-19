@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AAE9F"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="275dp"
+        android:layout_height="166dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="@string/email_add"
+        android:inputType="textEmailAddress"
+        android:background="@color/com_facebook_button_background_color_focused">
+
+        <requestFocus />
+    </EditText>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_pwd_logo"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:background="@color/com_facebook_button_background_color_focused">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/sign_in"
+        android:background="@color/com_facebook_button_background_color_focused"/>
+
+    <Button
+        android:id="@+id/btnFb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/com_facebook_button_background"
+        android:text="Sign in with Facebook"
+        android:textColor="@color/buttonTextColor" />
+
+    <Button
+        android:id="@+id/btnTw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/idp_button_background_email"
+        android:text="Gmail"
+        android:textColor="@color/buttonTextColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/forgot_pwd"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/lblReg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/new_here"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">LearnWithMe</string>
     <string name="facebook_application_id" translatable="false">1668526896772761</string>
+
+    <string name="email_add">E-mail address</string>
+    <string name="password">Password</string>
+    <string name="forgot_pwd">Forgot password?</string>
+    <string name="new_here">New here? Sign Up</string>
 </resources>
