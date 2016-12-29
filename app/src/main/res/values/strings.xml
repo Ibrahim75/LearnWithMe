@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LearnWithMe</string>
+    <string name="app_name">TeechMe</string>
     <string name="facebook_application_id" translatable="false">1668526896772761</string>
 
     <string name="email_add">E-mail address</string>

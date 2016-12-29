@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
-<HorizontalScrollView
-
-    android:id="@+id/scrollView1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:scrollbars="none"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <ImageView
-        style="@style/img_profile"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:src="scolaire_pic" />
+        android:layout_height="match_parent"
+        android:weightSum="1">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="373dp"
+            android:layout_height="267dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.03" />
 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Scolaire"
+            android:textColor="@color/headingColor"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Vous trouverez ici la description du cours"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 </HorizontalScrollView>
