@@ -10,13 +10,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ibmtec.learnwithme.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Learn With Me!"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+    <!--Champs des regions-->
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
 
     <Button
         android:layout_width="wrap_content"
@@ -24,7 +33,6 @@
         android:text="Se déconnecter"
         android:id="@+id/log_out_button"
         android:layout_marginTop="65dp"
-        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
 
